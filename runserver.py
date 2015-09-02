@@ -4,6 +4,4 @@ __author__ = 'florije'
 from intro_to_flask import app
 
 if __name__ == '__main__':
-    # app.run(debug=True)
-    from intro_to_flask.models import db
-    db.create_all()
+    app.run(debug=True)
